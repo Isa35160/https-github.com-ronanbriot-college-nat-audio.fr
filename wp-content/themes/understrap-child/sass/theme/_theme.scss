@@ -1,0 +1,158 @@
+// main: ../theme.scss
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+
+body {
+    font-family: arial, helvetica, sans-serif;
+    margin: 0;
+    background-color: #f1f1f1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+h1{
+  font-family: 'Arial', helvetica;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 15px auto;
+  padding: 25px;
+}
+h2{
+  text-align: center;
+  font-size: 1.6rem;
+    font-weight: lighter;
+  font-family: 'Arial', helvetica;
+}
+#enseignements {
+  font-family: "Times New Roman", arial, helvetica;
+  font-size: 1.3rem;
+  text-align: center;
+}
+main {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+h2.actu{
+  font-family: arial, helvetica;
+  font-weight: lighter;
+  color: #5186e7;
+
+}
+article.actu  {
+  background-color: #dfdfdf;
+  margin: 25px;
+  padding: 15px;
+  max-width: 600px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  border-radius: 25px;
+}
+article.actu img {
+  padding: 20px;
+  border-radius: 50px;
+}
+article.actu span {
+  align-self: flex-end;
+  font-style: italic;
+  color: #888;
+}
+h3.actu_title {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 1.4rem;
+}
+.horiz-bar{
+  height: 5px;
+  background-color: #5186e7;
+  width: 25%;
+  margin: 25px auto;
+  box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, .1);
+}
+
+.actu_title a {
+  color: #1F6565;
+  text-decoration: none;
+  text-align: center;
+}
+.actu_title a:hover {
+  color: #33cccc;
+}
+a#plus-actu {
+  display: block;
+  margin-right: 25px;
+  color: #1F6565;
+  text-decoration: none;
+  text-align: right;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+a#plus-actu:hover {
+  color: #33cccc;
+}
+
+#partenaire {
+  margin: 25px auto;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+#partenaire p {
+  padding: 20px;
+  text-align: center;
+}
+#partenaire img {
+  max-width: 150px;
+  border: 1px solid black;
+
+}
+
+.ban{
+  margin: 25px auto;
+  height: 230px;
+  background-image: url(../images/feuilles.jpg);
+  background-position:top center;
+  background-size: cover;
+}
+.ban:nth-of-type(2) {
+  background-position: center center;
+}
+
+/*Tablet*/
+@media screen and (min-width: 640px) {
+  article.actu  {
+      max-width: 300px;
+    }
+  section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 25px auto;
+  }
+  #partenaire {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  #partenaire img {
+    margin-right: 150px;
+  }
+  #partenaire p {
+    max-width: 320px;
+  }
+}
+@media screen and (min-width: 900px){
+  article.actu  {
+      max-width: 400px;
+    }
+
+}
