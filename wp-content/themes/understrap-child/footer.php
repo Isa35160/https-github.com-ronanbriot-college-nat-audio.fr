@@ -30,7 +30,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<h4><?php bloginfo('name'); ?></h4>
 	<p>Audioprothésistes chargés d'Enseignement aux facultés de Médecine, aux Facultés de Pharmacie et au Conservatoire National des Arts et Métiers</p>
 	<p>(Diplôme d'état d'audioprothésiste)</p>
-	<p class="adress">20 rue Thérèse - 75001 <br>
+	<p class="adress">20 rue Thérèse - 75001 Paris<br>
 	Tel : 01 42 96 87 77 <br>
 	Fax : 01 49 26 02 25
  </p>
