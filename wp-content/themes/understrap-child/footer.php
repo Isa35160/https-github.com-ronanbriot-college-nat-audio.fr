@@ -44,7 +44,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <section class="partenaires">
 	<ul>
-		<li> <a href="www.unsaf.org"> Annuaire Françaias d'Audiophonologie <img src="./img/unsaf.jpg" alt=""> </a> </li>
+		<li> <a href="www.unsaf.org"> Annuaire Français d'Audiophonologie <img src="../img/unsaf.jpg" alt=""> </a> </li>
 		<li> <a href="www.unsaf.org"> EDP Audio <img src="./img/unsaf.jpg" alt=""> </a> </li>
 		<li> <a href="www.unsaf.org"> France Audition <img src="./img/unsaf.jpg" alt=""> </a> </li>
 		<li> <a href="www.unsaf.org"> Société Française d'Audiologie <img src="./img/unsaf.jpg" alt=""> </a> </li>
