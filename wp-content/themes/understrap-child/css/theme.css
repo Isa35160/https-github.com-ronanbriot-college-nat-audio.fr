@@ -12348,7 +12348,26 @@ body {
   box-sizing: border-box;
 }
 
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  list-style: none;
+}
+
 img {
+  display: block;
   max-width: 100%;
   height: auto;
 }
@@ -12494,12 +12513,17 @@ a#plus-actu:hover {
 
 .footer-color .adress {
   font-size: 1.1rem;
-  margin: 30px 0;
+  margin: 10px 0;
 }
 
-.footer-color .partenaires ul li a:nth-of-type(1):before {
-  background-image: url("../img/AFA_logo.png");
-  font-size: 0;
+.footer-color .partenaires ul {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.footer-color .partenaires ul li {
+  width: 45%;
+  margin: 2%;
 }
 
 /*Tablet*/
@@ -12531,6 +12555,7 @@ a#plus-actu:hover {
   article.actu {
     max-width: 400px;
   }
+  /*-----------------FOOTER------------------*/
 }
 
 /*

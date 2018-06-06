@@ -44,12 +44,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <section class="partenaires">
 	<ul>
-		<li> <a href="www.unsaf.org"> Annuaire Français d'Audiophonologie <img src="../img/unsaf.jpg" alt=""> </a> </li>
-		<li> <a href="www.unsaf.org"> EDP Audio <img src="./img/unsaf.jpg" alt=""> </a> </li>
-		<li> <a href="www.unsaf.org"> France Audition <img src="./img/unsaf.jpg" alt=""> </a> </li>
-		<li> <a href="www.unsaf.org"> Société Française d'Audiologie <img src="./img/unsaf.jpg" alt=""> </a> </li>
-		<li> <a href="www.unsaf.org"> UNSAF <img src="./img/unsaf.jpg" alt=""> </a> </li>
-		<li> <a href="www.unsaf.org"> Vinci <img src="./img/unsaf.jpg" alt=""> </a> </li>
+
+		<li> <a href="www.unsaf.org"> <img src="http://localhost/college-nat-audio/wp-content/uploads/2018/06/AFA_logo.png" alt=""> </a> </li>
+		<li> <a href="www.unsaf.org"> <img src="http://localhost/college-nat-audio/wp-content/uploads/2018/06/edpaudio_logo.png" alt=""> </a> </li>
+		<li> <a href="www.unsaf.org"> <img src="http://localhost/college-nat-audio/wp-content/uploads/2018/06/fa_logo.png" alt=""> </a> </li>
+		<li> <a href="www.unsaf.org"> <img src="http://localhost/college-nat-audio/wp-content/uploads/2018/06/sfa_logo.gif" alt=""> </a> </li>
+		<li> <a href="www.unsaf.org">  <img src="http://localhost/college-nat-audio/wp-content/uploads/2018/04/unsaf.jpg" alt=""> </a> </li>
+		<li> <a href="www.unsaf.org">  <img src="http://localhost/college-nat-audio/wp-content/uploads/2018/06/vinci_logo.jpg" alt=""> </a> </li>
 
 	</ul>
 </section>
