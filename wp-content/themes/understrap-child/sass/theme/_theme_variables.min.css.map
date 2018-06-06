@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "_theme_variables.min.css",
+	"sources": [
+		"_theme_variables.scss"
+	],
+	"names": [],
+	"mappings": ""
+}

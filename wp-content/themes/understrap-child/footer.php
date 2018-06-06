@@ -13,6 +13,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <?php get_sidebar( 'footerfull' ); ?>
 
+<div class="footer-color">
+
+
+
 <div class="wrapper" id="wrapper-footer">
 
 	<div class="<?php echo esc_attr( $container ); ?>">
@@ -28,8 +32,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <section class="coordonnees">
 	<h4><?php bloginfo('name'); ?></h4>
-	<p>Audioprothésistes chargés d'Enseignement aux facultés de Médecine, aux Facultés de Pharmacie et au Conservatoire National des Arts et Métiers</p>
-	<p>(Diplôme d'état d'audioprothésiste)</p>
+	<p>Audioprothésistes chargés d'Enseignement <br> aux facultés de Médecine, <br>aux Facultés de Pharmacie <br> et au <br>Conservatoire National des Arts et Métiers  <br> (Diplôme d'état d'audioprothésiste) </p>
 	<p class="adress">20 rue Thérèse - 75001 Paris<br>
 	Tel : 01 42 96 87 77 <br>
 	Fax : 01 49 26 02 25
@@ -77,6 +80,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 </div><!-- #page we need this extra closing tag here -->
 
 <?php wp_footer(); ?>
+</div>
 
 </body>
 

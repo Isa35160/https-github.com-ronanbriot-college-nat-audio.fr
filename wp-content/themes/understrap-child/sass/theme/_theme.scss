@@ -2,9 +2,9 @@
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
 
 body {
-    font-family: arial, helvetica, sans-serif;
-    margin: 0;
-    background-color: #f1f1f1;
+  font-family: 'Arial', helvetica;
+  margin: 0;
+  background-color: $grey;
 }
 
 * {
@@ -12,41 +12,44 @@ body {
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
-
-h1{
+h1 {
   font-family: 'Arial', helvetica;
   font-size: 2.5rem;
   text-align: center;
   margin: 15px auto;
   padding: 25px;
 }
-h2{
+
+h2 {
   text-align: center;
   font-size: 1.6rem;
-    font-weight: lighter;
+  font-weight: lighter;
   font-family: 'Arial', helvetica;
 }
+
 #enseignements {
   font-family: "Times New Roman", arial, helvetica;
   font-size: 1.3rem;
   text-align: center;
 }
+
 main {
   display: flex;
   flex-flow: column;
   align-items: center;
 }
-h2.actu{
+
+h2.actu {
   font-family: arial, helvetica;
   font-weight: lighter;
   color: #5186e7;
-
 }
-article.actu  {
+
+article.actu {
   background-color: #dfdfdf;
   margin: 25px;
   padding: 15px;
@@ -56,21 +59,25 @@ article.actu  {
   align-items: center;
   border-radius: 25px;
 }
+
 article.actu img {
   padding: 20px;
   border-radius: 50px;
 }
+
 article.actu span {
   align-self: flex-end;
   font-style: italic;
   color: #888;
 }
+
 h3.actu_title {
   text-align: center;
   font-weight: lighter;
   font-size: 1.4rem;
 }
-.horiz-bar{
+
+.horiz-bar {
   height: 5px;
   background-color: #5186e7;
   width: 25%;
@@ -79,22 +86,25 @@ h3.actu_title {
 }
 
 .actu_title a {
-  color: #1F6565;
+  color: $green;
   text-decoration: none;
   text-align: center;
 }
+
 .actu_title a:hover {
-  color: #33cccc;
+  color: $hover;
 }
+
 a#plus-actu {
   display: block;
   margin-right: 25px;
-  color: #1F6565;
+  color: $green;
   text-decoration: none;
   text-align: right;
   font-size: 1.5rem;
   font-weight: lighter;
 }
+
 a#plus-actu:hover {
   color: #33cccc;
 }
@@ -105,54 +115,76 @@ a#plus-actu:hover {
   flex-flow: column;
   align-items: center;
 }
+
 #partenaire p {
   padding: 20px;
   text-align: center;
 }
+
 #partenaire img {
   max-width: 150px;
   border: 1px solid black;
-
 }
 
-.ban{
+.ban {
   margin: 25px auto;
   height: 230px;
-  background-image: url(../images/feuilles.jpg);
-  background-position:top center;
+  background-image: url("../images/feuilles.jpg");
+  background-position: top center;
   background-size: cover;
 }
+
 .ban:nth-of-type(2) {
   background-position: center center;
 }
-
+/*-----------------FOOTER------------------*/
+.footer-color {
+  background-color: $green;
+  color: #fff;
+  text-align: center;
+  h4 {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 15px 0;
+  }
+  p{
+    font-size: 0.9rem;
+  }
+  .adress{
+    font-size: 1.1rem;
+    margin: 30px 0;
+  }
+}
 /*Tablet*/
 @media screen and (min-width: 640px) {
-  article.actu  {
-      max-width: 300px;
-    }
+  article.actu {
+    max-width: 300px;
+  }
+
   section {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     margin: 25px auto;
   }
+
   #partenaire {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
   }
+
   #partenaire img {
     margin-right: 150px;
   }
+
   #partenaire p {
     max-width: 320px;
   }
 }
-@media screen and (min-width: 900px){
-  article.actu  {
-      max-width: 400px;
-    }
-
+@media screen and (min-width: 900px) {
+  article.actu {
+    max-width: 400px;
+  }
 }
