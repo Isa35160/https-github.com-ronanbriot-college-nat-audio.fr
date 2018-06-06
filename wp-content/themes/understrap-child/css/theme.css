@@ -12526,7 +12526,7 @@ a#plus-actu:hover {
   margin: 2%;
 }
 
-/*Tablet*/
+/*=================================================Tablet===============================================*/
 @media screen and (min-width: 640px) {
   article.actu {
     max-width: 300px;
@@ -12549,13 +12549,37 @@ a#plus-actu:hover {
   #partenaire p {
     max-width: 320px;
   }
+  /*-----------------FOOTER------------------*/
+  .footer_main {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+  }
+  .footer_main .coordonnees {
+    display: block;
+    width: 100%;
+  }
+  .footer_main .partenaires ul {
+    justify-content: space-between;
+  }
+  .footer_main .partenaires ul li {
+    width: 24%;
+    margin: 1%;
+  }
+  .ms_cgv ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  .ms_cgv ul li {
+    margin: 0 10px;
+  }
 }
 
+/*=================================================DESKTOP===============================================*/
 @media screen and (min-width: 900px) {
   article.actu {
     max-width: 400px;
   }
-  /*-----------------FOOTER------------------*/
 }
 
 /*

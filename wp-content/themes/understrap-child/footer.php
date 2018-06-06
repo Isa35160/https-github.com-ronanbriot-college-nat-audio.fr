@@ -29,6 +29,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					<div class="site-info">
 
+<div class="footer_main">
+
+
 
 <section class="coordonnees">
 	<h4><?php bloginfo('name'); ?></h4>
@@ -54,7 +57,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 	</ul>
 </section>
-
+</div>
 <section>
 	<div class="Copyright">
 		© <?php echo the_time('Y'); ?> <?php bloginfo('name'); ?> - Tous droits réservés - Site réalisé par <a href="www.kakii.fr">Kakii</a>
