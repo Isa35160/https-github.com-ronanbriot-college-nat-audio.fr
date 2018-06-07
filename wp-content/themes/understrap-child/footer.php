@@ -38,13 +38,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 </div>
 	</div>
 
-<?php if ( is_active_sidebar( 'footer-sidebar-3' ) ) : ?>
-	<div id="footer-sidebar-3" class="footer-aside col-md-6 col-lg-3">
-		<div class="footer-aside-inner">
-			<?php dynamic_sidebar( 'footer-sidebar-3' ); ?>
-		</div>
-	</div>
-<?php endif; ?>
 
 <section>
 	<div class="Copyright">
