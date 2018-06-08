@@ -14,49 +14,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 <?php get_sidebar( 'footerfull' ); ?>
 
 <div class="footer-color">
-<div class="footer_main">
-<?php if ( is_active_sidebar( 'footer-sidebar-1' ) ) : ?>
-	<div id="footer-sidebar-1" class="footer-aside col-md-12 col-lg-6">
-		<div class="footer-aside-inner">
-			<?php dynamic_sidebar( 'footer-sidebar-1' ); ?>
-		</div>
-	</div>
-<?php endif; ?>
-
-
-<div class="partenaires">
-
-
-
-<?php if ( is_active_sidebar( 'footer-sidebar-2' ) ) : ?>
-	<div id="footer-sidebar-2" class="footer-aside col-md-6 col-lg-3">
-		<div class="footer-aside-inner">
-			<?php dynamic_sidebar( 'footer-sidebar-2' ); ?>
-		</div>
-	</div>
-<?php endif; ?>
-</div>
-	</div>
-
-
-<section>
-	<div class="Copyright">
-		© <?php echo the_time('Y'); ?> <?php bloginfo('name'); ?> - Tous droits réservés - Site réalisé par <a href="www.kakii.fr">Kakii</a>
-	</div>
-	<div class="ms_cgv">
-		<ul>
-			<li> <a href="#">Mentions légales</a> </li>
-			<li> <a href="#">Conditions Générales de Vente</a> </li>
-
-		</ul>
-	</div>
-</section>
-
-	</div>
-
-<div class="footer-color">
-
-
 
 <div class="wrapper" id="wrapper-footer">
 
